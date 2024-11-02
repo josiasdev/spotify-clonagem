@@ -1,6 +1,6 @@
 /* HEADER */
 
-.main-container{
+.main-container {
   max-width: 80vw;
   height: 100vh;
   margin-left: 320px;
@@ -35,8 +35,8 @@
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: var(--bg-icon);
-  background-color:var(--bg-arrow-color);
+  background: #131313;
+  background-color: rgba(0,0,07);
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -70,7 +70,7 @@
   padding: 0px 100px 0 12px;
   color: #fff;
   text-overflow: ellipsis;
-  overflow:hidden;
+  overflow: hidden;
   white-space: nowrap;
   outline: none;
 }
@@ -81,6 +81,13 @@
   font-weight: 700;
   background-color: transparent;
   margin-right: 32px;
+  cursor: pointer;
+  border: 0;
+}
+
+.header__login .subscribe:hover {
+  transform: scale(1.10);
+  color: #fff;
 }
 
 .header__login .login {
@@ -90,4 +97,9 @@
   font-size: 16px;
   font-weight: 700;
   border-radius: 40px;
+  cursor: pointer;
+}
+
+.header__login .login:hover {
+  transform: scale(1.05);
 }
