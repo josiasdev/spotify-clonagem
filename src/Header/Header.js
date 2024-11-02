@@ -3,6 +3,7 @@ import './Header.css'
 import smallLeft from '../assets/icons/small-left.png';
 import smallRight from '../assets/icons/small-right.png';
 import search from '../assets/icons/search.png'
+
 const Header = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Header = () => {
             </div>
           </div>
           <div class="header__login">
-            <button class="subscribe">Inscreva-se</button>
+            <button class="subscribe">Inscrever-se</button>
             <button class="login">Entrar</button>
           </div>
         </nav>
